@@ -1,5 +1,5 @@
 This software is developed using Microsoft visual studio 2015.
-The input include: the 3D model file(.sca), the sampling point file （-sampling.txt） and the WKS value file （-wks.txt）
+The input include: the 3D model file(.sca), the sampling point file （-sampling.txt） and the wave kernel signature file （-wks.txt）
 
 1. Format of 3D meshes 
 the number of vertices (n)
@@ -19,7 +19,7 @@ x2   y2   z2
 .      .      .
 xd   yd   zd
 
-3. Format of wks.txt
+3. Format of wks.txt. Here k=100, i.e. we use the first 100 frequencies.
 number of vertices (n)   number of frenquncies (k)
 wks11   wks12   .....   wks1k
 wks21   wks22   .....   wks2k
